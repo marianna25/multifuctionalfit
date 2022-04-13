@@ -1,0 +1,15 @@
+:root {
+    --primary-color: rgb(35,31,30);
+    --secondary-color: rgb(255,0,0);
+    --detail-color: #e3d002;
+    --overlay: rgba(0,0,0,.7);
+    --primary-font: CompassSans, sans-serif;
+    --secondary-font: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
