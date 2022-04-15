@@ -1,9 +1,15 @@
 #start{
     background-color: var(--overlay);
     color: #fff;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     position: relative;
+}
+
+@media (min-width: 695px) {
+    #start{
+        height: 90vh;
+    }
 }
 
 #start::before{

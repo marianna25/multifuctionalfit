@@ -21,10 +21,16 @@
 
 .line {
     display: block;
-    width: 45rem;
+    width: 15rem;
     height: 1px;
     margin: 5px auto;
     margin-bottom: 45px;
     background-color: white;
     
   }
+
+  @media (min-width: 795px) {
+    .line {
+        width: 45rem;
+    }
+}

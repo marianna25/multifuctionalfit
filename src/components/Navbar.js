@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from '../assets/img/logo-negro.jpg'
+import menu from '../assets/img/menu.png'
 
 export const NavBar = () => {
+
+    //const [click, setClick] = useState(false)
+    const handleClick = () => {
+        //setClick(!click);
+        const navOption = document.querySelector('.navbar-options');
+        navOption.classList.toggle('active-menu');
+    }
+
+    
 
     return (
         <>
@@ -18,6 +28,10 @@ export const NavBar = () => {
                     >
                         <img src={logo} alt='logo' />
                     </Link>
+
+                    <div className="mobile-menu" onClick={handleClick}>
+                        <img src={menu} alt="menu responsive"/>
+                    </div>
 
                     <ul className="navbar-options">
                         <li className="nav-item">
