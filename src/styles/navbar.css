@@ -31,6 +31,18 @@
 
 .header .navbar-options {
     display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+    
+
+    .header .navbar-options {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 .header .nav-item {
@@ -44,10 +56,8 @@
 }
 
 
-.nav-item .active{
-    
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
 }
 
-.header .nav-item a:hover {
-    color: var(--detail-color);
-}

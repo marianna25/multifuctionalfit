@@ -4,7 +4,7 @@ export const Info = () => {
 
     return (
         <>
-            <div id="info"></div>
+            <div id="info" className="section"></div>
         </>
     );
 

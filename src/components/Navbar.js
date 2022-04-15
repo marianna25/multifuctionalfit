@@ -10,7 +10,7 @@ export const NavBar = () => {
                 <nav className="navbar">
 
                     <Link className="logo"
-                        to="/"
+                        to="start"
                         spy={true}
                         smooth={true}
                         offset={0}
@@ -36,7 +36,7 @@ export const NavBar = () => {
                         <li className="nav-item">
                             <Link
 
-                                to="start"
+                                to="about"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
@@ -49,20 +49,7 @@ export const NavBar = () => {
                         <li className="nav-item">
                             <Link
 
-                                to="start"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >
-                                Video
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link
-
-                                to="start"
+                                to="some-products"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
@@ -72,10 +59,11 @@ export const NavBar = () => {
                             </Link>
                         </li>
 
+
                         <li className="nav-item">
                             <Link
 
-                                to="start"
+                                to="contact"
                                 spy={true}
                                 smooth={true}
                                 offset={0}
