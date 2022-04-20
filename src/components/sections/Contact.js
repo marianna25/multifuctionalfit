@@ -4,12 +4,13 @@ import instagram from "../../assets/img/instagram.png";
 
 export const Contact = () => {
 
-    const inst = "https://www.instagram.com/_multifunctionalfit/";
+    const instagram_link = "https://www.instagram.com/_multifunctionalfit/";
+    const facebook_link = "https://www.facebook.com/multifunctionalfit";
 
     return (
         
             <div id="contact" className="section">
-                <div>
+                <div className="contact-info">
                     <h4>Contactanos</h4>
                     <div  className="info">
                         <p>maorodsanta@gmail.com</p>
@@ -20,12 +21,12 @@ export const Contact = () => {
                     <h4>Redes Sociales</h4>
                     <ul className="social-media">
                         <li>
-                            <a >
+                            <a href={facebook_link}>
                                 <img className="icon" src={facebook} alt="facebook" />
                             </a>
                         </li>
                         <li>
-                            <a href={inst}>
+                            <a href={instagram_link}>
                                 <img className="icon" src={instagram} alt="instagram" />
                             </a>
                         </li>

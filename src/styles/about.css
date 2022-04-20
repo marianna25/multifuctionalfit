@@ -9,10 +9,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 15px;
 }
-
-
 
 
 @media (min-width: 975px) {

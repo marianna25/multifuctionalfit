@@ -1,7 +1,8 @@
 .footer{
+    margin: 0 auto;
     background-color: var(--primary-color);
     width: 100%;
-    height: 8rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,7 @@
 }
 
 .footer p{
-    color: white;
+    font-size: 9px;
 }
 
 .line {
@@ -24,12 +25,26 @@
     width: 15rem;
     height: 1px;
     margin: 5px auto;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     background-color: white;
     
-  }
+}
 
-  @media (min-width: 795px) {
+@media (min-width: 450px) {
+    .footer{
+        height: 8rem;
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+
+    .line{
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 795px) {
     .line {
         width: 45rem;
     }

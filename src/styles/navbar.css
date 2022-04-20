@@ -30,7 +30,7 @@
 }
 
 .header .navbar .logo {
-    width: 250px;
+    width: 210px;
     height: auto;
     cursor: pointer;
 }
@@ -43,10 +43,22 @@
 }
 
 .mobile-menu{
-    width: 3rem;
-    height: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-bottom: 0.5rem;
     cursor: pointer;
+}
+
+@media (min-width: 450px) {
+    .header .navbar .logo {
+        width: 250px;
+    }
+
+
+    .mobile-menu{
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 

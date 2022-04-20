@@ -5,10 +5,17 @@
 }
 
 #some-products .products-content {
+    margin: auto;
+    width: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.5rem;
     row-gap: 0.5rem;
+}
+
+.products-content img{
+    max-height: 23rem;
+    max-width: 23rem;
 }
 
 @media (min-width: 975px) {
