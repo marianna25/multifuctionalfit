@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/multifuctionalfit/static/css/main.b4c85821.css",
+    "main.js": "/multifuctionalfit/static/js/main.2a5490ff.js",
+    "static/media/video.mp4": "/multifuctionalfit/static/media/video.08c0127cd7d04c60a403.mp4",
+    "static/media/foto1.png": "/multifuctionalfit/static/media/foto1.09520b838a56f10a69e5.png",
+    "static/media/banca-elevacion.png": "/multifuctionalfit/static/media/banca-elevacion.2d0e7661f0736a33681b.png",
+    "static/media/set-mancuernas.png": "/multifuctionalfit/static/media/set-mancuernas.cbecd4856a74f3e8d7e1.png",
+    "static/media/trineo.png": "/multifuctionalfit/static/media/trineo.689900f9eb2e69c1843c.png",
+    "static/media/paralelas.png": "/multifuctionalfit/static/media/paralelas.d2c64430ffe7396cdfd6.png",
+    "static/media/barra-pullups.png": "/multifuctionalfit/static/media/barra-pullups.6350daaeed9d9b7f6234.png",
+    "static/media/portada.png": "/multifuctionalfit/static/media/portada.b2038e68d018af14bc58.png",
+    "static/media/banca.png": "/multifuctionalfit/static/media/banca.b77f26459fe8aa68a92b.png",
+    "static/media/rack-movil.png": "/multifuctionalfit/static/media/rack-movil.39ca84da421e7098cacb.png",
+    "static/media/mini-paralelas.png": "/multifuctionalfit/static/media/mini-paralelas.1ea1cd6ae47976430484.png",
+    "static/media/smartphone.png": "/multifuctionalfit/static/media/smartphone.745d1db61c2533ef08e0.png",
+    "static/media/logo-negro.jpg": "/multifuctionalfit/static/media/logo-negro.62db3b5e53b992080e29.jpg",
+    "static/media/package.png": "/multifuctionalfit/static/media/package.6bd7c87968106ced5859.png",
+    "static/media/weight.png": "/multifuctionalfit/static/media/weight.7593b4b712402fdbafb1.png",
+    "static/media/instagram.png": "/multifuctionalfit/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/facebook.png": "/multifuctionalfit/static/media/facebook.fe68b242afa00d9ad1bd.png",
+    "index.html": "/multifuctionalfit/index.html",
+    "main.b4c85821.css.map": "/multifuctionalfit/static/css/main.b4c85821.css.map",
+    "main.2a5490ff.js.map": "/multifuctionalfit/static/js/main.2a5490ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c85821.css",
+    "static/js/main.2a5490ff.js"
+  ]
+}
